@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:35px;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.input{
+    padding: 10px 30px 10px 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background: antiquewhite;
+}
+.secondname form{
+    display: flex;
+    gap: 20px;
+}
+.secondname button{
+    padding: 7px;
+    border-radius: 15px;
+    border: 2px solid black;
+    color: black;
+    background: antiquewhite;
+}
+h1{
+    color: black;
+    font-family: Lobster;
+    font-size: 40px;
+
+}
+ul{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding-top: 24px;
+}
+li{
+    list-style: none;
+    background: antiquewhite;
+    border-radius: 15px;
+}
+body{
+    background: grey;
+}
